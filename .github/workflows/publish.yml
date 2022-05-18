@@ -37,6 +37,7 @@ jobs:
           pip install jinja2==3.0.2
           pip install jupyter
           pip install nbconvert
+          pip install python-dotenv
       # Set notebook anme
       - name: Get properties from the config file
         id: config_file

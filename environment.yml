@@ -1,6 +1,16 @@
-name: template-jp
+name: wildfires-sensors-fires_seviri
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
+  - python=3.9
+  - jupyter
+  - pandas
+  - intake
+  - intake-xarray
+  - aiohttp
+  - hvplot
+  - xarray
+  - pyhdf
+  - cartopy
+  - datashader

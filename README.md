@@ -61,4 +61,4 @@ You may also download the notebook from GitHub to run it locally:
 6. Launch the jupyter interface of your preference, notebook, `jupyter notebook` or lab `jupyter lab`
 
 # Credits
-The how to run section was adapted from the [Project Pythia Cookbook](https://cookbooks.projectpythia.org/) project.
+The **How to run** section was adapted from the [Project Pythia Cookbook](https://cookbooks.projectpythia.org/) project.

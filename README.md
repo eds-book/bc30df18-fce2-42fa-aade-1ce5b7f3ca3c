@@ -1,9 +1,10 @@
-<p align="center">
-<img src="https://github.com/alan-turing-institute/environmental-ds-book/blob/master/book/figures/logo/logo.png?raw=True" alt="thumbnail" width="200"/>
-</p>
 <div align="center">
     <h6>Environmental Data Science Book</h6>
 </div>
+
+<p align="center">
+<img src="https://github.com/alan-turing-institute/environmental-ds-book/blob/master/book/figures/logo/logo.png?raw=True" alt="thumbnail" width="200"/>
+</p>
 
 <div align="center">
     <h1>SEVIRI Level 1.5</h1>
@@ -59,4 +60,5 @@ You may also download the notebook from GitHub to run it locally:
 
 6. Launch the jupyter interface of your preference, notebook, `jupyter notebook` or lab `jupyter lab`
 
-The how to run notebook section was adapted from the [Project Pythia Cookbook](https://cookbooks.projectpythia.org/)
+# Credits
+The how to run section was adapted from the [Project Pythia Cookbook](https://cookbooks.projectpythia.org/) project.

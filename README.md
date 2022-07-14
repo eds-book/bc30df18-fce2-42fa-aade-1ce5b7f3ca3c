@@ -47,7 +47,7 @@ You may also download the notebook from GitHub to run it locally:
     git clone https://github.com/Environmental-DS-Book/wildfires-exploration-fires_seviri.git
     ```
 
-4. Move into the cloned repository, 
+4. Move into the cloned repository
     ```bash
     cd wildfires-exploration-fires_seviri
     ```

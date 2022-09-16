@@ -14,7 +14,7 @@
     <a href="https://github.com/Environmental-DS-Book/wildfires-exploration-fires_seviri/blob/main/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
     </a>
-    <a href="https://mybinder.org/v2/gh/Environmental-DS-Book/wildfires-exploration-fires_seviri/main?labpath=wildfires-exploration-fires_seviri.ipynb">
+    <a href="https://notebooks.gesis.org/binder/v2/gh/Environmental-DS-Book/wildfires-exploration-fires_seviri/main?labpath=wildfires-exploration-fires_seviri.ipynb">
         <img alt="Binder" src="https://mybinder.org/badge_logo.svg">
     </a>
     <a href="https://github.com/Environmental-DS-Book/wildfires-exploration-fires_seviri/actions/workflows/publish.yml/badge.svg">

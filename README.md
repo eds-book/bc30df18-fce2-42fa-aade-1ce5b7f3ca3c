@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/13321552/222991747-5ed76ae4-ce3e-49b5-9a22-cc9d25f10c7b?raw=True" alt="thumbnail" width="300"/>
+<img src="https://user-images.githubusercontent.com/13321552/222991747-5ed76ae4-ce3e-49b5-9a22-cc9d25f10c7b.png?raw=True" alt="thumbnail" width="300"/>
 </p>
 
 # How to run

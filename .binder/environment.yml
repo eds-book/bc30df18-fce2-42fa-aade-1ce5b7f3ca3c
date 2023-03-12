@@ -1,7 +1,7 @@
 name: wildfires-sensors-fires_seviri
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
   - python=3.9
   - jupyter

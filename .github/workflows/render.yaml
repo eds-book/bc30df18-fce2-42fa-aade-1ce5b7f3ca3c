@@ -46,9 +46,12 @@ jobs:
       # Render the notebook
       - name: Run the build process with Docker
         uses: addnab/docker-run-action@v3
+        env:
+          EUMESAT_API_KEY: ${{ secrets.EUMESAT_API_KEY }}
+          EUMESAT_API_SECRET: ${{ secrets.EUMESAT_API_SECRET }}
         with:
             image: quay.io/${{steps.config_quay.outputs.prop}}:latest
-            options: --user root -v ${{ github.workspace }}:/tmp
+            options: --user root -v ${{ github.workspace }}:/tmp -e EUMESAT_API_KEY -e EUMESAT_API_SECRET
             shell: bash
             run: |
                 v=$(jupyter kernelspec list | awk '{print $1}' | egrep ${{steps.config_kernel.outputs.prop}})

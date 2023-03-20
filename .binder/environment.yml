@@ -1,4 +1,4 @@
-name: wildfires-sensors-fires_seviri
+name: bc30df18-fce2-42fa-aade-1ce5b7f3ca3c
 channels:
   - conda-forge
   - nodefaults

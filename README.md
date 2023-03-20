@@ -11,14 +11,14 @@
 </div>
 
 <p align="center">
-    <a href="https://github.com/Environmental-DS-Book/wildfires-exploration-fires_seviri/blob/main/LICENSE">
+    <a href="https://github.com/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/blob/main/LICENSE">
         <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
     </a>
-    <a href="https://notebooks.gesis.org/binder/v2/gh/Environmental-DS-Book/wildfires-exploration-fires_seviri/main?labpath=wildfires-exploration-fires_seviri.ipynb">
+    <a href="https://notebooks.gesis.org/binder/v2/gh/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/main?labpath=notebook.ipynb">
         <img alt="Binder" src="https://mybinder.org/badge_logo.svg">
     </a>
-    <a href="https://github.com/Environmental-DS-Book/wildfires-exploration-fires_seviri/actions/workflows/render.yaml/badge.svg">
-        <img alt="Render" src="https://github.com/Environmental-DS-Book/wildfires-exploration-fires_seviri/actions/workflows/render.yaml/badge.svg">
+    <a href="https://github.com/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/actions/workflows/render.yaml/badge.svg">
+        <img alt="Render" src="https://github.com/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/actions/workflows/render.yaml/badge.svg">
     </a>
     <br/>
 </p>
@@ -48,18 +48,18 @@ You may also download the notebook from GitHub to run it locally:
 
 3. Clone the repository
     ```bash
-    git clone https://github.com/Environmental-DS-Book/wildfires-exploration-fires_seviri.git
+    git clone https://github.com/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c.git
     ```
 
 4. Move into the cloned repository
     ```bash
-    cd wildfires-exploration-fires_seviri
+    cd bc30df18-fce2-42fa-aade-1ce5b7f3ca3c
     ```
 
 5. Create and activate your environment from the `.binder/environment.yml` file
     ```bash
     conda env create -f .binder/environment.yml
-    conda activate wildfires-sensors-fires_seviri
+    conda activate bc30df18-fce2-42fa-aade-1ce5b7f3ca3c
     ```  
 
 6. Launch the jupyter interface of your preference, notebook, `jupyter notebook` or lab `jupyter lab`

@@ -12,7 +12,7 @@
 
 <p align="center">
     <a href="https://github.com/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/blob/main/LICENSE">
-        <img alt="license" src="https://img.shields.io/badge/License-MIT-yellow.svg">
+        <img alt="license" src="https://img.shields.io/badge/license-MIT-yellow.svg">
     </a>
     <a href="https://notebooks.gesis.org/binder/v2/gh/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/main?labpath=notebook.ipynb">
         <img alt="binder" src="https://mybinder.org/badge_logo.svg">

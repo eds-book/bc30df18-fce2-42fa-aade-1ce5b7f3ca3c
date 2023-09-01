@@ -8,6 +8,7 @@ on:
       - completed
       
 # This job installs dependencies, build the jupyter notebook, and pushes it to `render`, a new `branch`
+# This job installs dependencies, build the jupyter notebook, and pushes it to `render`, a new `branch`
 jobs:
   build:
     name: ${{ matrix.os }}
@@ -27,7 +28,7 @@ jobs:
       - name: Get properties from the config file
         id: config_file
         uses: notiz-dev/github-action-json-property@release
-        with: 
+        with:
           path: '.github/config.json'
           prop_path: 'notebook_name'
       # Set quay image
@@ -47,14 +48,17 @@ jobs:
       # Render the notebook
       - name: Run the build process with Docker
         uses: addnab/docker-run-action@v3
+        env:
+          EUMESAT_API_KEY: ${{ secrets.EUMESAT_API_KEY }}
+          EUMESAT_API_SECRET: ${{ secrets.EUMESAT_API_SECRET }}
         with:
-            image: quay.io/${{steps.config_quay.outputs.prop}}:latest
-            options: --user root -v ${{ github.workspace }}:/tmp
-            shell: bash
-            run: |
-                v=$(jupyter kernelspec list | awk '{print $1}' | egrep ${{steps.config_kernel.outputs.prop}})
-                jupyter-nbconvert --to notebook --ExecutePreprocessor.kernel_name="$v" --inplace --execute ${{steps.config_file.outputs.prop}}
-                cp ${{steps.config_file.outputs.prop}}  /tmp
+          image: quay.io/${{steps.config_quay.outputs.prop}}:latest
+          options: --user root -v ${{ github.workspace }}:/tmp -e EUMESAT_API_KEY -e EUMESAT_API_SECRET
+          shell: bash
+          run: |
+              v=$(jupyter kernelspec list | awk '{print $1}' | egrep ${{steps.config_kernel.outputs.prop}})
+              jupyter-nbconvert --to notebook --ExecutePreprocessor.kernel_name="$v" --inplace --execute ${{steps.config_file.outputs.prop}}
+              cp ${{steps.config_file.outputs.prop}}  /tmp
       - name: Commit
         run: |
           ls

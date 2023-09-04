@@ -9,10 +9,10 @@ authors:
     affiliation: Science & Technology Facilities Council
   - name: "This EDS book notebook contributors"
     website: "https://github.com/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/graphs/contributors"
-version: v1.0.2 # This is automatically set using the bumpversion tool.
+version: v1.0.3 # This is automatically set using the bumpversion tool.
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.8309767
+    value: 10.5281/zenodo.8309766
     description: The concept DOI for the collection containing all versions of the notebook.
 abstract: "Notebook developed to demonstrate how to explore SEVIRI Level 1.5."
 keywords:

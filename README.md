@@ -13,7 +13,7 @@
 <p align="center">
     <a href="https://github.com/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/blob/main/LICENSE">
         <img alt="license" src="https://img.shields.io/badge/license-MIT-yellow.svg">
-    </a>
+    </a>![bc30df18-fce2-42fa-aade-1ce5b7f3ca3c.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2FDownloads%2Fbc30df18-fce2-42fa-aade-1ce5b7f3ca3c.png)
     <a href="https://github.com/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/actions/workflows/render.yaml/badge.svg">
         <img alt="render" src="https://github.com/eds-book-gallery/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c/actions/workflows/render.yaml/badge.svg">
     </a>
@@ -43,7 +43,7 @@
 </p>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/13321552/222991747-5ed76ae4-ce3e-49b5-9a22-cc9d25f10c7b.png?raw=True" alt="thumbnail" width="300"/>
+<img src="images/thumbnail.png" alt="thumbnail" width="500"/>
 </p>
 
 # How to run

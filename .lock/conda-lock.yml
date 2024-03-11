@@ -13,10 +13,10 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: 8889e01f51d5ad0a579250795d05938351399f18cb44276a568403143b7603b5
-    osx-arm64: f7eacc47db6fd03dd18635eac3e4c8a1f404ecf638e990ce60031ad221fe0406
-    osx-64: 2a9ac2bf886408cade1fafe0f3ce0d0e0ea3ceee9da80dc311526d41f04b587a
-    win-64: de34e0bfa47968a9cf0537987c2ff064a4b4d4cec2e62fa14dce2aea39e57a5d
+    linux-64: 277984e90cb8bd5587f25450ba624310dd10fec7a18f4e4e3d124b56b349bcf3
+    osx-arm64: 497e4a8e7ee637079d0b72de6035c75475e4d3c920799f707bae2c34cba44dac
+    osx-64: dbfa73ec6e430c2552a854857a9ac10cf9ad233e9902b840e63feac48f819ec5
+    win-64: e9a69783941115c776d1c16f4a10cd7c1707626bf7ae95548ff1b921eb978ffd
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -5125,63 +5125,99 @@ package:
   category: main
   optional: false
 - name: intake
-  version: 2.0.3
+  version: 0.7.0
   manager: conda
   platform: linux-64
   dependencies:
     appdirs: ''
-    fsspec: '>=2023.0.0'
-    python: '>=3.8'
+    cloudpickle: '>=0.2.2'
+    dask: '>=1.0'
+    entrypoints: ''
+    fsspec: '>=0.7.4'
+    jinja2: ''
+    msgpack-python: ''
+    numpy: ''
+    partd: '>=0.3.10'
+    python: '>=3.6'
     pyyaml: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/intake-2.0.3-pyhd8ed1ab_0.conda
+    requests: ''
+    toolz: '>=0.8.2'
+  url: https://conda.anaconda.org/conda-forge/noarch/intake-0.7.0-pyhd8ed1ab_0.conda
   hash:
-    md5: d88b72e5f356f21b6c827ffac6e03b89
-    sha256: a084ff1c03ac9d1047b897544cfc482eb1a519e3d5fec3bb9d2f5c5d079803f2
+    md5: 310f0fdaec6eecd9cc7833a788bafb1f
+    sha256: 8dba632e81a11347d959bb11367f6b0184e2dcc9aeab550de156beac5fa6091b
   category: main
   optional: false
 - name: intake
-  version: 2.0.3
+  version: 0.7.0
   manager: conda
   platform: osx-64
   dependencies:
     appdirs: ''
-    fsspec: '>=2023.0.0'
-    python: '>=3.8'
+    cloudpickle: '>=0.2.2'
+    dask: '>=1.0'
+    entrypoints: ''
+    fsspec: '>=0.7.4'
+    jinja2: ''
+    msgpack-python: ''
+    numpy: ''
+    partd: '>=0.3.10'
+    python: '>=3.6'
     pyyaml: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/intake-2.0.3-pyhd8ed1ab_0.conda
+    requests: ''
+    toolz: '>=0.8.2'
+  url: https://conda.anaconda.org/conda-forge/noarch/intake-0.7.0-pyhd8ed1ab_0.conda
   hash:
-    md5: d88b72e5f356f21b6c827ffac6e03b89
-    sha256: a084ff1c03ac9d1047b897544cfc482eb1a519e3d5fec3bb9d2f5c5d079803f2
+    md5: 310f0fdaec6eecd9cc7833a788bafb1f
+    sha256: 8dba632e81a11347d959bb11367f6b0184e2dcc9aeab550de156beac5fa6091b
   category: main
   optional: false
 - name: intake
-  version: 2.0.3
+  version: 0.7.0
   manager: conda
   platform: osx-arm64
   dependencies:
     appdirs: ''
-    fsspec: '>=2023.0.0'
-    python: '>=3.8'
+    cloudpickle: '>=0.2.2'
+    dask: '>=1.0'
+    entrypoints: ''
+    fsspec: '>=0.7.4'
+    jinja2: ''
+    msgpack-python: ''
+    numpy: ''
+    partd: '>=0.3.10'
+    python: '>=3.6'
     pyyaml: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/intake-2.0.3-pyhd8ed1ab_0.conda
+    requests: ''
+    toolz: '>=0.8.2'
+  url: https://conda.anaconda.org/conda-forge/noarch/intake-0.7.0-pyhd8ed1ab_0.conda
   hash:
-    md5: d88b72e5f356f21b6c827ffac6e03b89
-    sha256: a084ff1c03ac9d1047b897544cfc482eb1a519e3d5fec3bb9d2f5c5d079803f2
+    md5: 310f0fdaec6eecd9cc7833a788bafb1f
+    sha256: 8dba632e81a11347d959bb11367f6b0184e2dcc9aeab550de156beac5fa6091b
   category: main
   optional: false
 - name: intake
-  version: 2.0.3
+  version: 0.7.0
   manager: conda
   platform: win-64
   dependencies:
     appdirs: ''
-    fsspec: '>=2023.0.0'
-    python: '>=3.8'
+    cloudpickle: '>=0.2.2'
+    dask: '>=1.0'
+    entrypoints: ''
+    fsspec: '>=0.7.4'
+    jinja2: ''
+    msgpack-python: ''
+    numpy: ''
+    partd: '>=0.3.10'
+    python: '>=3.6'
     pyyaml: ''
-  url: https://conda.anaconda.org/conda-forge/noarch/intake-2.0.3-pyhd8ed1ab_0.conda
+    requests: ''
+    toolz: '>=0.8.2'
+  url: https://conda.anaconda.org/conda-forge/noarch/intake-0.7.0-pyhd8ed1ab_0.conda
   hash:
-    md5: d88b72e5f356f21b6c827ffac6e03b89
-    sha256: a084ff1c03ac9d1047b897544cfc482eb1a519e3d5fec3bb9d2f5c5d079803f2
+    md5: 310f0fdaec6eecd9cc7833a788bafb1f
+    sha256: 8dba632e81a11347d959bb11367f6b0184e2dcc9aeab550de156beac5fa6091b
   category: main
   optional: false
 - name: intake-xarray

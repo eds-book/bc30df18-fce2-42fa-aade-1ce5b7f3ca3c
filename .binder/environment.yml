@@ -6,7 +6,7 @@ dependencies:
   - python=3.9
   - jupyter
   - pandas
-  - intake
+  - intake==0.7.*
   - intake-xarray
   - aiohttp
   - hvplot

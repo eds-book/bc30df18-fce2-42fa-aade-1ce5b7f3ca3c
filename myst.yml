@@ -1,0 +1,83 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+project:
+  id: bc30df18-fce2-42fa-aade-1ce5b7f3ca3c
+  title: SEVIRI Level 1.5 (Jupyter Notebook) published in the Environmental Data Science book
+  short_title: SEVIRI Level 1.5 (EUMESAT)
+  abstract: Notebook developed to demonstrate how to explore SEVIRI Level 1.5.
+  authors:
+    - id: sjackson
+      name: Samuel Jackson
+      orcid: 0000-0001-5301-5095
+      corresponding: true
+      email: samueljackson@outlook.com
+      url: https://github.com/samueljackson92
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - stfc
+  reviewers:
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      url: https://github.com/acocac
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - turing
+  editors:
+    - id: acoca
+  affiliations:
+    - id: stfc
+      name: Science and Technology Facilities Council
+      department: Scientific Computing
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
+  subject: Wildfires
+  keywords:
+    - environmental data science
+    - wildfires
+    - exploration
+    - SEVIRI
+  venue:
+    title: Environmental Data Science Book
+    short_title: EDS Book
+    url: https://www.edsbook.org
+  issue:
+    name: Standard
+  thumbnail: images/thumbnail.png
+  requirements:
+    - environment.yml
+  doi: 10.5281/zenodo.8309766
+  github: https://github.com/eds-book/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c
+  jupyter:
+    binder:
+      repo: eds-book/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: 2024-09-13
+  toc:
+    - file: notebook.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: notebook.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v1.0.5
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme

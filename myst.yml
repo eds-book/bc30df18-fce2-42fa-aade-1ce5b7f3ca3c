@@ -13,7 +13,7 @@ project:
       orcid: 0000-0001-5301-5095
       corresponding: true
       email: samueljackson@outlook.com
-      url: https://github.com/samueljackson92
+      github: samueljackson92
       roles:
         - Investigation
         - Software
@@ -24,7 +24,7 @@ project:
     - id: acoca
       name: Alejandro Coca-Castro
       orcid: 0000-0002-9264-1539
-      url: https://github.com/acocac
+      github: acocac
       roles:
         - Writing – review & editing
       affiliations:

@@ -10,7 +10,6 @@ authors:
     affiliation: Science and Technology Facilities Council
     orcid: 0000-0001-5301-5095
     email: samueljackson@outlook.com
-    website: https://github.com/samueljackson92
 date-released: '2024-09-13'
 contact:
   - family-names: Jackson
@@ -18,10 +17,10 @@ contact:
     affiliation: Science and Technology Facilities Council
     orcid: 0000-0001-5301-5095
     email: samueljackson@outlook.com
-    website: https://github.com/samueljackson92
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.8309766
+  - description: Open review report for this notebook
+    type: url
+    value: https://github.com/alan-turing-institute/environmental-ds-book/pull/12
 keywords:
   - Fire
   - Exploration
@@ -31,4 +30,4 @@ license: MIT
 license-url: https://opensource.org/license/MIT
 repository: https://github.com/eds-book/bc30df18-fce2-42fa-aade-1ce5b7f3ca3c
 type: software
-version: v1.1.0
+version: v2025.05.0
